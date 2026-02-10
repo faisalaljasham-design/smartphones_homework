@@ -46,21 +46,21 @@ class MyHomePage extends StatelessWidget {
          
           ProductBox(
             name: "Laptop",
-            description: "Laptop",
+            description: "Laptop is most productive development tool",
             price: 2000,
             image: "laptop.jpg",
           ),
           
           ProductBox(
             name: "tablet",
-            description: "tablet",
+            description: "tablet is the most useful device development ever for meeting",
             price: 1500,
             image: "tablet.jpg",
           ),
         
           ProductBox(
             name: "pen drive",
-            description: "pen drive",
+            description: "iphone is the stylist phone ever",
             price: 100,
             image: "pendrive.jpg",
           ),
