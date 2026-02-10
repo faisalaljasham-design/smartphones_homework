@@ -13,7 +13,20 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(title: const Text(appTitle)),
         body: const Center(
-          child: Text('فيصل عبدالرحمن محمد الجشعم'+'445159407'),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Text(
+                'فيصل عبدالرحمن محمد الجشعم',
+                style: TextStyle(fontSize: 20),
+              ),
+              SizedBox(height: 10),
+              Text(
+                'الرقم التدريبي:445159407',
+                style: TextStyle(fontSize: 16),
+              ),
+            ],
+          ),
         ),
       ),
     );
