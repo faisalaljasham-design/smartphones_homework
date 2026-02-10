@@ -29,47 +29,47 @@ class MyHomePage extends StatelessWidget {
         shrinkWrap: true,
         padding: const EdgeInsets.fromLTRB(2.0, 10.0, 2.0, 10.0),
         children: <Widget>[
-          
           ProductBox(
             name: "iPhone",
             description: "iPhone is the stylist phone ever",
             price: 1000,
-            image: "iphone.jpg",
+            image: "iphone.png",
           ),
 
           ProductBox(
             name: "pixel 1",
             description: "pixel is th most featureful phone ever",
             price: 800,
-            image: "pixel.jpg",
+            image: "pixel1.png",
           ),
-         
+
           ProductBox(
             name: "Laptop",
             description: "Laptop is most productive development tool",
             price: 2000,
-            image: "laptop.jpg",
+            image: "Laptop.png",
           ),
-          
+
           ProductBox(
             name: "tablet",
-            description: "tablet is the most useful device development ever for meeting",
+            description:
+                "tablet is the most useful device development ever for meeting",
             price: 1500,
-            image: "tablet.jpg",
+            image: "tablet.png",
           ),
-        
+
           ProductBox(
             name: "pen drive",
             description: "iphone is the stylist phone ever",
             price: 100,
-            image: "pendrive.jpg",
+            image: "pendrive.png",
           ),
-          
+
           ProductBox(
             name: "floppy disk",
             description: " drive is useful rescue storage medium",
             price: 2000,
-            image: "floppydisk.jpg",
+            image: "floppydisk.png",
           ),
         ],
       ),
